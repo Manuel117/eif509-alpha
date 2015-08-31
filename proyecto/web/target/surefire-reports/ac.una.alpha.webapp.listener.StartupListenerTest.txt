@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ac.una.alpha.webapp.listener.StartupListenerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 107.844 sec - in ac.una.alpha.webapp.listener.StartupListenerTest
