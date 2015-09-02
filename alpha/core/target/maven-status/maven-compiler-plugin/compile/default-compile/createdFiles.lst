@@ -1,5 +1,5 @@
-una/cr/alpha/service/impl/CategoryManagerImpl.class
-una/cr/alpha/dao/hibernate/CategoryDaoHibernate.class
-una/cr/alpha/service/CategoryManager.class
-una/cr/alpha/dao/CategoryDao.class
-una/cr/alpha/model/Category.class
+una\cr\alpha\service\impl\CategoryManagerImpl.class
+una\cr\alpha\model\Category.class
+una\cr\alpha\service\CategoryManager.class
+una\cr\alpha\dao\CategoryDao.class
+una\cr\alpha\dao\hibernate\CategoryDaoHibernate.class

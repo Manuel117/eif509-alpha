@@ -1,4 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: una.cr.alpha.dao.CategoryDaoTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.013 sec - in una.cr.alpha.dao.CategoryDaoTest
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.019 sec <<< FAILURE! - in una.cr.alpha.dao.CategoryDaoTest
+testFindCategoryByDescription(una.cr.alpha.dao.CategoryDaoTest)  Time elapsed: 0.505 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at una.cr.alpha.dao.CategoryDaoTest.testFindCategoryByDescription(CategoryDaoTest.java:24)
+
