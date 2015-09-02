@@ -1,5 +1,8 @@
 C:\Users\manuel\Documents\eif509-alpha\eif509-alpha\alpha\core\src\main\java\una\cr\alpha\dao\CategoryDao.java
 C:\Users\manuel\Documents\eif509-alpha\eif509-alpha\alpha\core\src\main\java\una\cr\alpha\model\Category.java
+C:\Users\manuel\Documents\eif509-alpha\eif509-alpha\alpha\core\src\main\java\una\cr\alpha\dao\hibernate\MenuDaoHibernate.java
+C:\Users\manuel\Documents\eif509-alpha\eif509-alpha\alpha\core\src\main\java\una\cr\alpha\dao\MenuDao.java
 C:\Users\manuel\Documents\eif509-alpha\eif509-alpha\alpha\core\src\main\java\una\cr\alpha\service\CategoryManager.java
 C:\Users\manuel\Documents\eif509-alpha\eif509-alpha\alpha\core\src\main\java\una\cr\alpha\service\impl\CategoryManagerImpl.java
+C:\Users\manuel\Documents\eif509-alpha\eif509-alpha\alpha\core\src\main\java\una\cr\alpha\model\Menu.java
 C:\Users\manuel\Documents\eif509-alpha\eif509-alpha\alpha\core\src\main\java\una\cr\alpha\dao\hibernate\CategoryDaoHibernate.java

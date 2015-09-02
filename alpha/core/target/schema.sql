@@ -11,6 +11,8 @@
 
     drop table if exists category;
 
+    drop table if exists menu;
+
     drop table if exists role;
 
     drop table if exists user_role;
@@ -41,6 +43,33 @@
     create table category (
         id bigint not null auto_increment,
         description varchar(255),
+        primary key (id)
+    ) ENGINE=InnoDB;
+
+    create table menu (
+        id bigint not null auto_increment,
+        description varchar(255),
+        friday bigint,
+        fridaydate datetime,
+        fridaystate bit,
+        monday bigint,
+        mondaydate datetime,
+        mondaystate bit,
+        saturday bigint,
+        saturdaydate datetime,
+        saturdaysate bit,
+        sunday bigint,
+        sundaydate datetime,
+        sundaySate bit,
+        thursday bigint,
+        thursdaydate datetime,
+        thursdaystate bit,
+        tuesday bigint,
+        tuesdaydate datetime,
+        tuesdaystate bit,
+        wednesday bigint,
+        wednesdaydate datetime,
+        wednesdaystate bit,
         primary key (id)
     ) ENGINE=InnoDB;
 
