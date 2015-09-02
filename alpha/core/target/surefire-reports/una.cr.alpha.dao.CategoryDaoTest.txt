@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: una.cr.alpha.dao.CategoryDaoTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 7.413 sec <<< FAILURE! - in una.cr.alpha.dao.CategoryDaoTest
-testFindCategoryByDescription(una.cr.alpha.dao.CategoryDaoTest)  Time elapsed: 0.09 sec  <<< ERROR!
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 6.197 sec <<< FAILURE! - in una.cr.alpha.dao.CategoryDaoTest
+testFindCategoryByDescription(una.cr.alpha.dao.CategoryDaoTest)  Time elapsed: 0.012 sec  <<< ERROR!
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'una.cr.alpha.dao.CategoryDaoTest': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.hibernate.SessionFactory org.appfuse.dao.BaseDaoTestCase.sessionFactory; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [applicationContext-dao.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1202)
@@ -339,7 +339,7 @@ Caused by: org.hibernate.PropertyNotFoundException: Could not find a setter for 
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
 
-testAddAndRemoveCategory(una.cr.alpha.dao.CategoryDaoTest)  Time elapsed: 0.003 sec  <<< ERROR!
+testAddAndRemoveCategory(una.cr.alpha.dao.CategoryDaoTest)  Time elapsed: 0.013 sec  <<< ERROR!
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'una.cr.alpha.dao.CategoryDaoTest': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.hibernate.SessionFactory org.appfuse.dao.BaseDaoTestCase.sessionFactory; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [applicationContext-dao.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1202)

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: una.cr.alpha.dao.MenuDaoTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.956 sec <<< FAILURE! - in una.cr.alpha.dao.MenuDaoTest
-testFindById(una.cr.alpha.dao.MenuDaoTest)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.474 sec <<< FAILURE! - in una.cr.alpha.dao.MenuDaoTest
+testFindById(una.cr.alpha.dao.MenuDaoTest)  Time elapsed: 0.002 sec  <<< ERROR!
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'una.cr.alpha.dao.MenuDaoTest': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.hibernate.SessionFactory org.appfuse.dao.BaseDaoTestCase.sessionFactory; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [applicationContext-dao.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1202)

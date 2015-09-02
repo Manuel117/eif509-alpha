@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="una.cr.alpha.dao.MenuDaoTest" time="0" tests="1" errors="1" skipped="0" failures="0">
+<testsuite name="una.cr.alpha.dao.MenuDaoTest" time="0.002" tests="1" errors="1" skipped="0" failures="0">
   <properties>
-    <property name="jboss.i18n.generate-proxies" value="true"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_51\jre\bin"/>
     <property name="java.vm.version" value="25.51-b03"/>
@@ -63,7 +62,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testFindById" classname="una.cr.alpha.dao.MenuDaoTest" time="0">
+  <testcase name="testFindById" classname="una.cr.alpha.dao.MenuDaoTest" time="0.002">
     <error message="Error creating bean with name &apos;una.cr.alpha.dao.MenuDaoTest&apos;: Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.hibernate.SessionFactory org.appfuse.dao.BaseDaoTestCase.sessionFactory; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;sessionFactory&apos; defined in class path resource [applicationContext-dao.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister" type="org.springframework.beans.factory.BeanCreationException"><![CDATA[org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'una.cr.alpha.dao.MenuDaoTest': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.hibernate.SessionFactory org.appfuse.dao.BaseDaoTestCase.sessionFactory; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [applicationContext-dao.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1202)
