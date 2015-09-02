@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: una.cr.webapp.filter.LocaleFilterTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.006 sec - in una.cr.webapp.filter.LocaleFilterTest

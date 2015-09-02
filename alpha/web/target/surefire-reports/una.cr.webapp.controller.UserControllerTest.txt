@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: una.cr.webapp.controller.UserControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 40.231 sec - in una.cr.webapp.controller.UserControllerTest
