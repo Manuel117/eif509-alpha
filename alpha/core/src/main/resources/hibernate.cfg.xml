@@ -9,6 +9,8 @@
         <mapping class="org.appfuse.model.User"/>
         <mapping class="org.appfuse.model.Role"/>
         <mapping class="una.cr.alpha.model.Category"/>
+        <mapping class="una.cr.alpha.model.Dish"/>
+        <mapping class="una.cr.alpha.model.Preference"/>
         <mapping class="una.cr.alpha.model.Menu"/>
     </session-factory>
 </hibernate-configuration>
