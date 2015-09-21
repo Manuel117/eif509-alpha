@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: una.cr.webapp.listener.StartupListenerTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.916 sec - in una.cr.webapp.listener.StartupListenerTest

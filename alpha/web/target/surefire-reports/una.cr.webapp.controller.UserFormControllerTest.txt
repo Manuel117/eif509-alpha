@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: una.cr.webapp.controller.UserFormControllerTest
--------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.961 sec - in una.cr.webapp.controller.UserFormControllerTest
