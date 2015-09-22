@@ -10,6 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlRootElement;
 
 import org.appfuse.model.BaseObject;
 import org.appfuse.model.User;
@@ -23,6 +24,7 @@ import org.appfuse.model.User;
  */
 
 @Entity 
+@XmlRootElement
 @Table(name="person")
 public class Person extends BaseObject{
 	private Long idPerson;
