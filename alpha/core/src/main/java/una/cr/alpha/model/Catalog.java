@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlRootElement;
 
 import org.appfuse.model.BaseObject;
 
@@ -18,6 +19,7 @@ import org.appfuse.model.BaseObject;
  */
 
 @Entity 
+@XmlRootElement
 @Table(name="catalog")
 public class Catalog extends BaseObject{
 	private Long idcatalog;
