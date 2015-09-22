@@ -12,21 +12,21 @@ import javax.persistence.Table;
 import org.appfuse.model.BaseObject;
 
 @Entity
-@Table(name="preference")
-public class Preference extends BaseObject{
+@Table(name="suggest")
+public class Suggest extends BaseObject{
 
-	private Long idpreference;
+	private Long idsuggest;
 	private String description;
 	private CatalogValue idcatalog_value;
 	private Person idpersona;
 	
 	@Id 
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	public Long getIdpreference() {
-		return idpreference;
+	public Long getIdsuggest() {
+		return idsuggest;
 	}
-	public void setIdpreference(Long idpreference) {
-		this.idpreference = idpreference;
+	public void setIdsuggest(Long idsuggest) {
+		this.idsuggest = idsuggest;
 	}
 	
 	@Column(name="description", length=255, nullable=false)
@@ -61,7 +61,7 @@ public class Preference extends BaseObject{
 		result = prime * result + ((description == null) ? 0 : description.hashCode());
 		result = prime * result + ((idcatalog_value == null) ? 0 : idcatalog_value.hashCode());
 		result = prime * result + ((idpersona == null) ? 0 : idpersona.hashCode());
-		result = prime * result + ((idpreference == null) ? 0 : idpreference.hashCode());
+		result = prime * result + ((idsuggest == null) ? 0 : idsuggest.hashCode());
 		return result;
 	}
 	@Override
@@ -72,7 +72,7 @@ public class Preference extends BaseObject{
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Preference other = (Preference) obj;
+		Suggest other = (Suggest) obj;
 		if (description == null) {
 			if (other.description != null)
 				return false;
@@ -88,16 +88,16 @@ public class Preference extends BaseObject{
 				return false;
 		} else if (!idpersona.equals(other.idpersona))
 			return false;
-		if (idpreference == null) {
-			if (other.idpreference != null)
+		if (idsuggest == null) {
+			if (other.idsuggest != null)
 				return false;
-		} else if (!idpreference.equals(other.idpreference))
+		} else if (!idsuggest.equals(other.idsuggest))
 			return false;
 		return true;
 	}
 	@Override
 	public String toString() {
-		return "Preference [idpreference=" + idpreference + ", description=" + description + ", idcatalog_value="
+		return "Suggest [idsuggest=" + idsuggest + ", description=" + description + ", idcatalog_value="
 				+ idcatalog_value + ", idpersona=" + idpersona + "]";
 	}
 	

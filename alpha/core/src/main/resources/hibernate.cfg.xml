@@ -15,5 +15,6 @@
         <mapping class="una.cr.alpha.model.Menu"/>
         <mapping class="una.cr.alpha.model.Food"/>
         <mapping class="una.cr.alpha.model.Preference"/>
+        <mapping class="una.cr.alpha.model.Suggest"/>
     </session-factory>
 </hibernate-configuration>
