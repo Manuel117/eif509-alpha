@@ -20,17 +20,17 @@ import org.appfuse.model.BaseObject;
 @Entity 
 @Table(name="catalog")
 public class Catalog extends BaseObject{
-	private Long idCatalog;
+	private Long idcatalog;
 	private String description;
 	
 	@Id 
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	public Long getIdCatalog() {
-		return idCatalog;
+		return idcatalog;
 	}
 	
-	public void setIdCatalog(Long idCatalog) {
-		this.idCatalog = idCatalog;
+	public void setIdCatalog(Long idcatalog) {
+		this.idcatalog = idcatalog;
 	}
 	
 	@Column(name="description", length=155, nullable=false)
@@ -47,7 +47,7 @@ public class Catalog extends BaseObject{
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((description == null) ? 0 : description.hashCode());
-		result = prime * result + ((idCatalog == null) ? 0 : idCatalog.hashCode());
+		result = prime * result + ((idcatalog == null) ? 0 : idcatalog.hashCode());
 		return result;
 	}
 	
@@ -65,16 +65,16 @@ public class Catalog extends BaseObject{
 				return false;
 		} else if (!description.equals(other.description))
 			return false;
-		if (idCatalog == null) {
-			if (other.idCatalog != null)
+		if (idcatalog == null) {
+			if (other.idcatalog != null)
 				return false;
-		} else if (!idCatalog.equals(other.idCatalog))
+		} else if (!idcatalog.equals(other.idcatalog))
 			return false;
 		return true;
 	}
 	@Override
 	public String toString() {
-		return "Catalog [idCatalog=" + idCatalog + ", description=" + description + "]";
+		return "Catalog [idcatalog=" + idcatalog + ", description=" + description + "]";
 	}
 	
 	
