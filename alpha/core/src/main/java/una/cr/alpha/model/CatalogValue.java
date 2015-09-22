@@ -22,18 +22,18 @@ import org.appfuse.model.BaseObject;
 @Entity 
 @Table(name="catalog")
 public class CatalogValue extends BaseObject{
-	private Long idCatalogValue;
+	private Long idcatalog_value;
 	private Catalog catalog;
 	private String description;
 	
 	@Id 
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	public Long getIdCatalogValue() {
-		return idCatalogValue;
+		return idcatalog_value;
 	}
 	
-	public void setIdCatalogValue(Long idCatalogValue) {
-		this.idCatalogValue = idCatalogValue;
+	public void setIdCatalogValue(Long idcatalog_value) {
+		this.idcatalog_value = idcatalog_value;
 	}
 	
 	@OneToOne
@@ -61,7 +61,7 @@ public class CatalogValue extends BaseObject{
 		int result = 1;
 		result = prime * result + ((catalog == null) ? 0 : catalog.hashCode());
 		result = prime * result + ((description == null) ? 0 : description.hashCode());
-		result = prime * result + ((idCatalogValue == null) ? 0 : idCatalogValue.hashCode());
+		result = prime * result + ((idcatalog_value == null) ? 0 : idcatalog_value.hashCode());
 		return result;
 	}
 
@@ -84,17 +84,17 @@ public class CatalogValue extends BaseObject{
 				return false;
 		} else if (!description.equals(other.description))
 			return false;
-		if (idCatalogValue == null) {
-			if (other.idCatalogValue != null)
+		if (idcatalog_value == null) {
+			if (other.idcatalog_value != null)
 				return false;
-		} else if (!idCatalogValue.equals(other.idCatalogValue))
+		} else if (!idcatalog_value.equals(other.idcatalog_value))
 			return false;
 		return true;
 	}
 
 	@Override
 	public String toString() {
-		return "CatalogValue [idCatalogValue=" + idCatalogValue + ", catalog=" + catalog + ", description="
+		return "CatalogValue [idcatalog_value=" + idcatalog_value + ", catalog=" + catalog + ", description="
 				+ description + "]";
 	}
 	

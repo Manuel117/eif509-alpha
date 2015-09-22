@@ -25,7 +25,7 @@ import org.appfuse.model.User;
 @Entity 
 @Table(name="person")
 public class Person extends BaseObject{
-	private Long idPerson;
+	private Long idperson;
 	private String nickName;
 	private String firstName;
 	private String lastName;
@@ -37,11 +37,11 @@ public class Person extends BaseObject{
 	@Id 
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	public Long getIdPerson() {
-		return idPerson;
+		return idperson;
 	}
 	
 	public void setIdPerson(Long idPerson) {
-		this.idPerson = idPerson;
+		this.idperson = idPerson;
 	}
 	
 	@Column(name="nickname", length=100, nullable=false)
@@ -115,7 +115,7 @@ public class Person extends BaseObject{
 		result = prime * result + ((birthday == null) ? 0 : birthday.hashCode());
 		result = prime * result + ((email == null) ? 0 : email.hashCode());
 		result = prime * result + ((firstName == null) ? 0 : firstName.hashCode());
-		result = prime * result + ((idPerson == null) ? 0 : idPerson.hashCode());
+		result = prime * result + ((idperson == null) ? 0 : idperson.hashCode());
 		result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
 		result = prime * result + ((nickName == null) ? 0 : nickName.hashCode());
 		result = prime * result + ((phone == null) ? 0 : phone.hashCode());
@@ -147,10 +147,10 @@ public class Person extends BaseObject{
 				return false;
 		} else if (!firstName.equals(other.firstName))
 			return false;
-		if (idPerson == null) {
-			if (other.idPerson != null)
+		if (idperson == null) {
+			if (other.idperson != null)
 				return false;
-		} else if (!idPerson.equals(other.idPerson))
+		} else if (!idperson.equals(other.idperson))
 			return false;
 		if (lastName == null) {
 			if (other.lastName != null)
@@ -177,7 +177,7 @@ public class Person extends BaseObject{
 	
 	@Override
 	public String toString() {
-		return "Person [idPerson=" + idPerson + ", nickName=" + nickName + ", firstName=" + firstName + ", lastName="
+		return "Person [idperson=" + idperson + ", nickName=" + nickName + ", firstName=" + firstName + ", lastName="
 				+ lastName + ", email=" + email + ", phone=" + phone + ", birthday=" + birthday + ", userId=" + userId
 				+ "]";
 	}
