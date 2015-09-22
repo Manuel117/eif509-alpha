@@ -8,8 +8,10 @@
     <session-factory>
         <mapping class="org.appfuse.model.User"/>
         <mapping class="org.appfuse.model.Role"/>
-        <mapping class="org.appfuse.model.Person"/>
-        <mapping class="org.appfuse.model.Catalog"/>
-        <mapping class="org.appfuse.model.CatalogValue"/>
+        <mapping class="una.cr.alpha.model.Person"/>
+        <mapping class="una.cr.alpha.model.Catalog"/>
+        <mapping class="una.cr.alpha.model.CatalogValue"/>
+        <mapping class="una.cr.alpha.model.Dish"/>
+        <mapping class="una.cr.alpha.model.Menu"/>
     </session-factory>
 </hibernate-configuration>
