@@ -23,7 +23,7 @@ import org.appfuse.model.BaseObject;
 
 @Entity 
 @XmlRootElement
-@Table(name="catalog")
+@Table(name="catalog_value")
 public class CatalogValue extends BaseObject{
 	private Long idcatalog_value;
 	private Catalog catalog;
