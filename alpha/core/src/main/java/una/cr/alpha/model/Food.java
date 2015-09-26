@@ -13,10 +13,12 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlRootElement;
 
 import org.appfuse.model.BaseObject;
 
 @Entity
+@XmlRootElement
 @Table(name="food")
 public class Food extends BaseObject{
 

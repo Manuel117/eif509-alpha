@@ -14,10 +14,12 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlRootElement;
 
 import org.appfuse.model.BaseObject;
 
 @Entity
+@XmlRootElement
 @Table(name="dish")
 public class Dish extends BaseObject{
     private Long iddish;

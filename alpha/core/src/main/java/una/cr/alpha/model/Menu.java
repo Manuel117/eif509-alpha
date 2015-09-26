@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlRootElement;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
@@ -15,6 +16,7 @@ import org.appfuse.model.BaseObject;
 
 
 @Entity 
+@XmlRootElement
 @Table(name="menu")
 public class Menu extends BaseObject{
 	
