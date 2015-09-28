@@ -14,6 +14,6 @@ public class GotoDaoHibernate extends GenericDaoHibernate<Goto,Long> implements 
         super(Goto.class);
     }
 	public Goto findById(Long id){
-		return(Goto)getSession().createCriteria(Goto.class).add(Restrictions.eq("id", id)).uniqueResult();
+		return(Goto)getSession().createCriteria(Goto.class).add(Restrictions.eq("idgoto", id)).uniqueResult();
 	}
 }
