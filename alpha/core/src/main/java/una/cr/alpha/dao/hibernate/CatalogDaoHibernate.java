@@ -17,7 +17,7 @@ public class CatalogDaoHibernate extends GenericDaoHibernate<Catalog, Long> impl
     }
 
     public Catalog findById(Long id) {
-        return (Catalog) getSession().createCriteria(Catalog.class).add(Restrictions.eq("id", id)).uniqueResult();
+        return (Catalog) getSession().createCriteria(Catalog.class).add(Restrictions.eq("idcatalog", id)).uniqueResult();
     }
     
     public List<Catalog> findByDescription(String desciption) {
