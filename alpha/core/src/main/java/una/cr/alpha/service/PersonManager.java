@@ -42,6 +42,7 @@ public interface PersonManager extends GenericManager<Person, Long> {
     List<Person> findByLastName(@PathParam("lastName") String lastName);
 
     @GET
+    @Path("/")
     List<Person> getPeople();
 
 }
