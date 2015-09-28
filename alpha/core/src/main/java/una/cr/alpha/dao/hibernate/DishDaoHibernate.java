@@ -17,7 +17,7 @@ public class DishDaoHibernate extends GenericDaoHibernate<Dish, Long> implements
 	    }
 
 	    public Dish findById(Long id) {
-	        return (Dish) getSession().createCriteria(Dish.class).add(Restrictions.eq("id", id)).uniqueResult();
+	        return (Dish) getSession().createCriteria(Dish.class).add(Restrictions.eq("iddish", id)).uniqueResult();
 	    }
 	    
 	    public List<Dish> findByDescription(String desciption) {

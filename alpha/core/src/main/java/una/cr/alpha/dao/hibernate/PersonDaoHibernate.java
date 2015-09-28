@@ -19,7 +19,7 @@ public class PersonDaoHibernate extends GenericDaoHibernate<Person, Long> implem
     }
 
     public Person findById(Long id) {
-        return (Person) getSession().createCriteria(Person.class).add(Restrictions.eq("id", id)).uniqueResult();
+        return (Person) getSession().createCriteria(Person.class).add(Restrictions.eq("idperson", id)).uniqueResult();
     }
     
     public Person findByUser(User user) {
