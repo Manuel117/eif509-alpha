@@ -14,11 +14,11 @@ import org.appfuse.service.GenericManager;
 import una.cr.alpha.model.Person;
 
 @WebService
-@Path("/person")
+@Path("/persons")
 public interface PersonManager extends GenericManager<Person, Long> {
 
     @GET
-    @Path("/find/{id}")
+    @Path("/{id}")
     Person findById(@PathParam("id") Long id);
 
     @GET
@@ -26,7 +26,7 @@ public interface PersonManager extends GenericManager<Person, Long> {
     Person findByUser(@PathParam("user") User user);
 
     @GET
-    @Path("/findNickname/{nickname}")
+    @Path("/nickname/{nickname}")
     Person findByNickname(@PathParam("nickname") String nickname);
 
     @GET
